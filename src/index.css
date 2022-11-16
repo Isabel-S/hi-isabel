@@ -1,3 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,600&family=Merriweather:ital,wght@0,400;1,700&family=Roboto:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root,
+.scroll,
+.app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* user-select: none; */
+  overflow: hidden;
+}
+
+.app{
+  display: flex;
+  background-color: #faf5f1;
+}
+
+.left-text {
+  flex: 2 1 0;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.intro {
+  display: flex;
+}
+
+.profile {
+  flex: 1 1 1;
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+}
+
+.intro-text {
+  flex: 1 1 1;
+  margin-left: 3%;
+}
+
+.intro-text p{
+  font-family: 'Merriweather', serif;
+  color: #2e5545;
+  font-size: 1.05em;
+}
+
+.left-text h2{
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  color: #2e5545;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.left-text h3{
+  margin-top: -1%;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+  color: #2e5545;
+  font-weight: 700;
+}
+
+.womp {
+  flex: 1 2 0;
+}
+
+#root {
+  overflow: auto;
+}
+
+.scroll {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 5%;
+  top: 0;
+  left: 0;
+  padding:0;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: both proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll > div {
+  scroll-snap-align: unset;
+}
+
+.slide {
+  height: 100vh;
+  width: 200vw;
+  padding: 30px;
+  visibility: hidden;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: auto;
+}
+
+@media (min-width: 800px) {
+  /* Desktop and up */
+
+  .scroll {
+      overflow-y: auto;
+      overflow-x: hidden;
+  }
+
+  .slide {
+      height: 200vh;
+      width: 100vw;
+      visibility: visible;
+  }
+
+  .scroll > div {
+      scroll-snap-align: start;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
