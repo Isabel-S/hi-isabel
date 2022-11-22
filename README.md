@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Isabel Sieh's Webpage
+
+This project is my personal portfolio featuring all my work and what I'm up to. This was also my first start-to-finish project done outside of class. I used this to introduce myself to the ideating, wireframing, and development process for websites. I'm quite proud of the end result!
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
