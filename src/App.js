@@ -18,20 +18,21 @@ function App() {
 
   const { height, width } = useWindowDimensions();
 
+  function openResume(e) {
+    e.preventDefault();
+    console.log()
+    window.open("https://drive.google.com/file/d/1ILEF4zptPkJ19CCC88qtzz2Zid9hT7YR/view?usp=sharing");
+  }
+
   return (
     <>
     <div className= "app" style={{width: '100%', height: '100%'}}>
       <div className = "left-text">
         <h2>Hey! I'm Isabel Sieh</h2>
+        <h3>isabelrs@stanford.edu</h3>
         <h3>Computer Science + Digital Humanities @ Stanford University</h3>
-        <h3>Tech Team @ The Stanford Daily, AI Literacy Education Research @ DISTAL lab, Digital Humanities @ Gender Research</h3>
-        <div className="intro">
-          <img className = "profile" src={require('./images/profile2.jpg')} alt="Paris"/>
-          <div className= "intro-text">
-            <p>I’m curious how we can be informed. How can we inform citizens so they are empowered to make the best decisions in their world? </p>
-            <p>I love tech, education, advocacy and recently, digital storytelling! Lately, I’ve been coding web experiences so students can learn better, or a news reader can get informed better – this includes interactive news articles and digital learning tools. </p>
-          </div>
-        </div>
+        <h3>Tech Team @ The Stanford Daily, AI Literacy Education Research @ DISTAL lab, Digital Humanities @ Stanford Gender Research</h3>
+        <p>~ scroll for more ~</p>
       </div>
       <Canvas className="womp">
         <ambientLight intensity={0.15}/>
