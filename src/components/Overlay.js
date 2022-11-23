@@ -6,6 +6,12 @@ function openResume(e) {
     window.open("https://drive.google.com/file/d/1ILEF4zptPkJ19CCC88qtzz2Zid9hT7YR/view?usp=sharing");
   }
 
+function openGithub(e) {
+    e.preventDefault();
+    console.log()
+    window.open("https://drive.google.com/file/d/1ILEF4zptPkJ19CCC88qtzz2Zid9hT7YR/view?usp=sharing");
+}
+
 const Overlay = forwardRef(({ caption, scroll }, ref) => (
     <div className="scroll"
         ref={ref}
@@ -20,7 +26,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             caption.current.innerText = `${Math.abs(grad)}°`
         }}>
         <div className = "slides"> 
-            <div className="slide slide1">
+            <div className="slide">
                 <div className="intro">
                 <div className = "profile"><img className = "profile-image" src={require('../images/profile2.jpg')} alt="Paris"/></div>
                 <div className= "intro-text">
@@ -32,7 +38,25 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
                 </div>  
             </div>
             <div className="slide">
-                90°
+                <h2>Coding Stuff</h2>
+                <div>
+                    <h3>What I'm doing now:</h3>
+                    <div className='list'>
+                        <li>Fullstack development for <a href="https://stanford-craft.netlify.app/login">educational digital widgets</a> for a course teaching the statstics and social impacts of AI</li>
+                        <li>Redesigning the <a href="https://stanforddaily.com/masthead/">old Daily Masthead</a> into <a href = "https://www.figma.com/file/yuNwxfvHZaKgmqvS4WiJSR/Untitled?node-id=1%3A4">this</a></li>
+                        <li>Web scraping news articles and Youtube views and comments to create a timeline on the Depp/Heard trial and relation to the #MeToo movement</li>
+                    </div>
+                    
+
+                    <h3>Past work I'm proud of:</h3>
+                    <div className='list'>
+                        <li>Made a webapp for educational research, and am a coauthor of the research paper - my first paper!</li>
+                        <li>I made this website, including this rotating adrogynous entity!</li>
+                        <li>Coded stuff for Metacrafters, <a>here's what the Head of Engineering said about my work.</a></li>
+                    </div>
+
+                    <button onClick={openGithub} className="resume-button">Github</button>
+                </div>
             </div>
             <div className="slide">
                 180°
