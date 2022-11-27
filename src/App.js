@@ -7,6 +7,7 @@ import {Canvas} from "@react-three/fiber"
 import Womp3 from "./components/Womp3"
 import RotationWrapper from "./components/RotationWrapper";
 import Overlay from "./components/Overlay";
+import { useGLTF, MeshWobbleMaterial, MeshReflectorMaterial, MeshDistortMaterial} from '@react-three/drei'
 //<OrbitControls enableZoom = {false}/>
 
 import useWindowDimensions from "./hooks/useWindowDimensions";
