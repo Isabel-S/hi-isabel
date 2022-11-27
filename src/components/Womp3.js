@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { useGLTF, MeshWobbleMaterial, MeshReflectorMaterial, MeshDistortMaterial} from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/hi-isabel/womp3.gltf')
+  const { nodes, materials } = useGLTF('https://isabel-s.github.io/hi-isabel/womp3.gltf')
   return (
     <group {...props} dispose={null} scale = {0.5}>
       <mesh geometry={nodes.Node.geometry} material={materials.material_0}>
@@ -15,4 +15,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/hi-isabel/womp3.gltf')
+useGLTF.preload('https://isabel-s.github.io/hi-isabel/womp3.gltf')
