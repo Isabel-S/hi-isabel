@@ -19,6 +19,27 @@ body,
   overflow: hidden;
 }
 
+.scroll {
+  height: 55vh
+}
+
+.scrollText {
+  font-family: 'Merriweather', serif;
+  padding-left: 5em;
+  font-size: 0.8em;
+  color: #2e5545;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.scrollText u{
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #2e5545;
+  font-style: italic;
+  font-weight: 700;
+}
+
 .app{
   display: flex;
   background-color: #faf5f1;
@@ -26,7 +47,7 @@ body,
 
 .left-text {
   flex: 2 1 0;
-  margin-top: 2%;
+  margin-top: -1%;
   margin-left: 5%;
 }
 
@@ -124,6 +145,15 @@ body,
   font-weight: 700;
 }
 
+
+.left-text h4{
+  margin-top: -1%;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #2e5545;
+  font-weight: 700;
+}
+
 .left-text p{
   margin-top: -1%;
   font-family: 'Merriweather', serif;
@@ -139,7 +169,7 @@ body,
 }
 
 #root {
-  overflow: auto;
+  overflow: hidden;
 }
 
 .scroll {
@@ -147,7 +177,7 @@ body,
   top: 0;
   left: 0;
   padding: 0;
-  margin-top: 45vh;
+  margin-top: 40vh;
   margin-left: 2.5%;
   overflow-y: hidden;
   overflow-x: auto;
@@ -176,13 +206,21 @@ body,
   }
 
   .slide {
-      padding-bottom: 50vh;
+      padding-bottom: 20vh;
       visibility: visible;
   }
 
   .scroll > div {
       scroll-snap-align: start;
   }
+}
+
+.last {
+  padding-bottom: 0;
+}
+
+.bye-space {
+ padding-bottom: 15vh;
 }
 
 body {
