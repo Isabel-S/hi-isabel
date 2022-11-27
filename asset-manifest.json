@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hi-isabel/static/css/main.0dfb1886.css",
-    "main.js": "/hi-isabel/static/js/main.c187f9de.js",
+    "main.js": "/hi-isabel/static/js/main.b5ed35f0.js",
     "static/js/787.38fdb345.chunk.js": "/hi-isabel/static/js/787.38fdb345.chunk.js",
     "static/media/profile2.jpg": "/hi-isabel/static/media/profile2.9d79e915a1fe508e1d39.jpg",
     "static/media/logo.svg": "/hi-isabel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hi-isabel/index.html",
     "main.0dfb1886.css.map": "/hi-isabel/static/css/main.0dfb1886.css.map",
-    "main.c187f9de.js.map": "/hi-isabel/static/js/main.c187f9de.js.map",
+    "main.b5ed35f0.js.map": "/hi-isabel/static/js/main.b5ed35f0.js.map",
     "787.38fdb345.chunk.js.map": "/hi-isabel/static/js/787.38fdb345.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dfb1886.css",
-    "static/js/main.c187f9de.js"
+    "static/js/main.b5ed35f0.js"
   ]
 }
