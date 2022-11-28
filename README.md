@@ -4,9 +4,7 @@ This project is my personal portfolio featuring all my work and what I'm up to. 
 
 I have a lot of work to do with the dimensions, but it's most updated state is deployed and available online :)
 
-[My website](https://isabel-s.github.io/hi-isabel/)
-
-Check outmy page here: 
+!!!!!!! [My Website](https://isabel-s.github.io/hi-isabel/) !!!!!!!
 
 ## Getting Started with Create React App
 
