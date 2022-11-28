@@ -30,7 +30,7 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
                 <div className="intro">
                 <div className = "profile"><img className = "profile-image" src={require('../images/profile2.jpg')} alt="Paris"/></div>
                 <div className= "intro-text">
-                    <p>I like “storytelling” (through educating, public speaking, etc.) and understanding how to best tell these stories (like through coding)! I’m curious how we can be informed. How can we inform citizens so they are empowered to make the best decisions in their world? </p>
+                    <p>I like “storytelling” (through educating, public speaking, etc.) and understanding how to best tell these stories (like through coding)! I’m curious how we can be informed and how can we inform citizens so they're empowered to make the best decisions in their world. </p>
                     <p>I love tech, education, advocacy and recently, digital storytelling! Lately, I’ve been coding web experiences so students can learn better, or news readers can get informed better – this includes interactive news articles and digital learning tools. </p>
                     <p>My days are filled with learning, coding, teaching, and doing research.</p>
                     <button onClick={openResume} className="resume-button">Resume</button>
@@ -75,9 +75,9 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
                 <div>
                     <h3>My email is up there ^</h3>
                     <div className='list'>
-                        <li>I'm looking for a summer 2023 job, particularly a webdev or fullstack job in journalism, education, AI, and/or social impact</li>
+                        <li>I'm looking for a summer 2023 job, particularly a webdev or fullstack job in news publishing, education, AI, and/or social impact</li>
                         <li>More links: <a href= "https://www.linkedin.com/in/isabel-sieh-9b99a912a/">LinkedIn</a>, <a href="https://www.instagram.com/isabelsieh/">personal instagram</a> (?), <a href = "https://twitter.com/isaseaa">twitter</a> (incredibly inactive)</li>
-                        <li>My current obsessions: <a href="https://pudding.cool/">pudding.cool</a>, World Cup, my twinsgiving in Lisbon</li>
+                        <li>My current obsessions: <a href="https://pudding.cool/">pudding.cool</a>, my lisbon twinsgiving, world cup </li>
                     </div>
                 </div>
                 <div className='bye-space'></div>

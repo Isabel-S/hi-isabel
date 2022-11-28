@@ -30,7 +30,7 @@ function App() {
     <p className="scrollText">This is a work in progress! Please view in <u>full screen</u> for now ... I'm working on dimesions and mobile verions</p>
     <div className= "app" style={{width: '100%', height: '100%'}}>
       <div className = "left-text">
-        <h2>Hey! I'm Isabel Sieh</h2>
+        <h2>Hi! I'm Isabel Sieh</h2>
         <h3>isabelrs@stanford.edu</h3>
         <h3>Computer Science + Digital Humanities @ Stanford University</h3>
         <h4>Tech @ The Stanford Daily, AI Education Research @ DISTAL lab, Digital Humanities @ Stanford Gender Research</h4>
