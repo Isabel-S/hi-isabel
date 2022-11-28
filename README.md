@@ -1,6 +1,12 @@
 # Isabel Sieh's Webpage
 
-This project is my personal portfolio featuring all my work and what I'm up to. This was also my first start-to-finish project done outside of class. I used this to introduce myself to the ideating, wireframing, and development process for websites. I'm quite proud of the end result!
+This project is my personal portfolio featuring all my work and what I'm up to. This was also my first start-to-finish project done outside of class. I used this to introduce myself to the ideating, wireframing, and development process for websites. I'm quite proud of the results so far!
+
+I have a lot of work to do with the dimensions, but it's most updated state is deployed and available online :)
+
+[My website](https://isabel-s.github.io/hi-isabel/)
+
+Check outmy page here: 
 
 ## Getting Started with Create React App
 
