@@ -33,7 +33,6 @@ function App() {
         <h2>Hi! I'm Isabel Sieh</h2>
         <h3>isabelrs@stanford.edu</h3>
         <h3>Computer Science + Digital Humanities @ Stanford University</h3>
-        <h4>Tech @ The Stanford Daily, AI Education Research @ DISTAL lab, Digital Humanities @ Stanford Gender Research</h4>
         <p>~ scroll for more ~</p>
       </div>
       <Canvas className="womp">
